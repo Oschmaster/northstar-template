@@ -1,0 +1,59 @@
+# --- Angular / Node.js ---
+node_modules/
+dist/
+coverage/
+.angular/
+.cache/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (commit only intentionally named examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# --- .NET ---
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+artifacts/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+*.pdb
+project.lock.json
+project.fragment.lock.json
+project.nuget.cache
+
+# --- VS Code ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+*.code-workspace
+
+# --- WebStorm / JetBrains ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- Visual Studio ---
+.vs/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
